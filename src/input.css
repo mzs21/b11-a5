@@ -60,7 +60,7 @@ main{
 }
 
 .dashboard-header{
-    @apply flex items-center justify-between gap-4 m-4;
+    @apply flex items-center justify-between  m-4;
 }
 
 .assigned-task, .date{

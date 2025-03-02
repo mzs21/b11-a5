@@ -298,7 +298,6 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: calc(var(--spacing) * 4);
 }
 .assigned-task, .date {
   display: flex;
