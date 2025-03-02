@@ -5,8 +5,185 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DevBoard</title>
     <link rel="stylesheet" href="./src/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Hello</h1>
+    <header>
+        <nav>
+            <div id="nav-logo">
+                <img src="./assets/logo.png" alt="logo" >
+                <h1 id="nav-logo-text"><span class="font-light">Dev</span><span class="font-bold">Board</span></h1>
+            </div>
+            <div id="nav-content">
+                <div id="nav-content-check">
+                    <img src="./assets/checkbox.png" alt="checkbox" />
+                <span id="task-count">0</span>
+            </div>
+                <img src="./assets/theme-btn.png" alt="theme-btn" id="theme-btn"/>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="main-dashboard">
+            <div class="dashboard-header">
+                <div class="assigned-task">
+                    <img src="./assets/checkbox.png" alt="checkbox" class="rounded-full bg-white p-4">
+                    <div class="assigned-task-count-text"><h1>Task Asssigned</h1>
+                    <h2 id="assigned-task-count">6</h2></div>
+                </div>
+                <div class="blog-redirect">
+                    <img src="./assets/board.png" alt="board">
+                    <p>Discover Something <br/> New Today!</p>
+                </div>
+                <div class="date">
+                    <img src="./assets/calender.png" alt="calender" class="rounded-full bg-white p-4">
+                    <div class="date-details"><span class="date-name">Wed ,</span><br/>
+                    <span id="date-current"></span></div>
+                </div>
+            </div>
+
+            <hr/>
+
+            <div class="cards">
+                <div class="card">
+                    <div class='card-content'>
+                        <div class="company-name">ShopEase</div>
+                        <div class="card-title"> Fix Mobile Button Issue </div>
+                        <div class="card-details"><p class="">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+and ensure onClick works properly</p></div>
+                    </div>
+<hr class="my-4"/>
+
+                    <div class="card-footer">
+                        <div class="card-footer-date">
+                            <h2>Deadline</h2>
+                            <p class="card-date"></p>
+                        </div>
+                        <button class="card-footer-btn" >Completed</button>
+                            
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class='card-content'>
+                        <div class="company-name">CloudSync</div>
+                        <div class="card-title"> Add Dark Mode</div>
+                        <div class="card-details"><p class="">Store the user's preference in localStorage, update CSS variables dynamically, and apply a smooth transition effect.</p></div>
+                    </div>
+<hr class="my-4"/>
+
+                    <div class="card-footer">
+                        <div class="card-footer-date">
+                            <h2>Deadline</h2>
+                            <p class="card-date"></p>
+                        </div>
+                        <button class="card-footer-btn" >Completed</button>
+                            
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class='card-content'>
+                        <div class="company-name">SwiftPay</div>
+                        <div class="card-title"> Optimize  Home page</div>
+                        <div class="card-details"><p class="">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+and ensure onClick works properly</p></div>
+                    </div>
+<hr class="my-4"/>
+
+                    <div class="card-footer">
+                        <div class="card-footer-date">
+                            <h2>Deadline</h2>
+                            <p class="card-date"></p>
+                        </div>
+                        <button class="card-footer-btn" >Completed</button>
+                            
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class='card-content'>
+                        <div class="company-name">Meta</div>
+                        <div class="card-title">Add new emoji 🤲</div>
+                        <div class="card-details"><p class="">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+and ensure onClick works properly</p></div>
+                    </div>
+<hr class="my-4"/>
+
+                    <div class="card-footer">
+                        <div class="card-footer-date">
+                            <h2>Deadline</h2>
+                            <p class="card-date"></p>
+                        </div>
+                        <button class="card-footer-btn" >Completed</button>
+                            
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class='card-content'>
+                        <div class="company-name">Google LLC</div>
+                        <div class="card-title">Integrate OpenAI API </div>
+                        <div class="card-details"><p class="">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+and ensure onClick works properly</p></div>
+                    </div>
+<hr class="my-4"/>
+
+                    <div class="card-footer">
+                        <div class="card-footer-date">
+                            <h2>Deadline</h2>
+                            <p class="card-date"></p>
+                        </div>
+                        <button class="card-footer-btn" >Completed</button>
+                            
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class='card-content'>
+                        <div class="company-name">Glassdoar</div>
+                        <div class="card-title">Improve Job searching </div>
+                        <div class="card-details"><p class="">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+and ensure onClick works properly</p></div>
+                    </div>
+<hr class="my-4"/>
+
+                    <div class="card-footer">
+                        <div class="card-footer-date">
+                            <h2>Deadline</h2>
+                            <p class="card-date"></p>
+                        </div>
+                        <button class="card-footer-btn" >Completed</button>
+                            
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+
+
+        <section class="activity-log">
+            
+                <div class="activity-log-header">
+                    <img src="./assets/activity.png" alt="activity" >
+                    <h1>Activity Log</h1>
+                </div>
+                    
+                <button class="clear-history-btn" >Clear History</button>
+
+            <hr/>
+
+            <div class="status"></div>
+            
+            
+        </section>
+    </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
