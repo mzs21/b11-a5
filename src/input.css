@@ -175,3 +175,30 @@ MARK: ACTIVITY LOG
 .activity{
     @apply bg-[#F4F7FF] flex gap-y-4 rounded-lg opacity-70 font-normal text-base tracking-[3%] text-black mb-4 py-4 px-2 mx-4
 }
+
+/* 
+MARK: BLOG 
+*/
+
+.main-page-redirect{
+    @apply bg-[#3752FD] px-5 py-3 text-white font-bold rounded-xl
+}
+
+.blog-heading{
+    @apply text-center text-3xl font-extrabold text-black 
+}
+
+.questions{
+    @apply grid gap-y-4 w-full;
+}
+
+.question-item{
+    @apply mx-4 rounded-xl bg-white  px-4;
+}
+
+.question, .answer{
+    @apply text-lg font-bold  py-6 
+}
+.answer{
+    @apply font-normal 
+}

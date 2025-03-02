@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="shadow-sm">
+            <div id="nav-logo">
+                <img src="./assets/logo.png" alt="logo" >
+                <h1 id="nav-logo-text"><span class="font-light">Dev</span><span class="font-bold">Board</span></h1>
+            </div>
+            <button type="button" class="main-page-redirect"><a href="index.html"> Back to Desk</a></button>
+        </nav>
+    </header>
+    <div>
+        <h1 class="blog-heading">Blogs</h1>
+    </div>
+
+    <div class="questions">
+        <div class="question-item">
+            <p class="question">Question-1: What are the different ways to select an element in the DOM?</p>
+            <hr/>
+            <p class="answer"> We can do in the following ways -
+                <br/>document.getElementById('elementId')
+                
+            <br/>document.getElementsByClassName('className')
+            <br/>document.getElementsByTagName('tagName')
+<br/>
+     document.querySelector('.className');
+     <br/>
+document.querySelector('#elementId');
+<br/>
+document.querySelectorAll('.className');
+        </ul>
+
+ </p>
+        </div>
+
+        <div class="question-item">
+            <p class="question">Question-2: What is the difference between innerHTML, innerText, and textContent ?</p>
+            <hr/>
+            <p class="answer">
+                innerHTML gets or sets the HTML content inside an element.
+<br/>
+innerText gets or sets the text content of an element, but does not get or set hidden elements.
+<br/>
+textContent gets or sets the text content of an element. It gets the including hidden elements.
+            </p>
+        </div>
+
+        <div class="question-item">
+            <p class="question">Question-3: What is event delegation in the DOM?</p>
+            <hr/>
+            <p class="answer"> It's a technique. Event delegation involves using a single event listener for multiple elements. This listener will still work even if new elements are added.</p>
+        </div>
+
+        <div class="question-item">
+            <p class="question">Question-4: What is event bubbling in the DOM?</p>
+            <hr/>
+            <p class="answer">Event bubbling is a technique by which an event propagates from the target element up through its parent elements </p>
+        </div>
+
+        <div class="question-item">
+            <p class="question">Question-5: How do you create, add, and remove elements using JavaScript?</p>
+            <hr/>
+            <p class="answer">
+                Create: document.createElement('tagName') 
+<br/>
+Add: parentElement.appendChild(newElement) 
+<br/>
+Remove: parentElement.removeChild(childElement)
+            </p>
+        </div>
+    </div>
+</body>
+</html>
